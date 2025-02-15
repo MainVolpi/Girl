@@ -6,7 +6,7 @@ const nomeAprovado = [
     'Manuela Botelho', 'manuela botelho'
 ];
 const nome = prompt('Qual seu Nome??')
-if (!nomeAprovado.includes(nome)) {
+if (nomeAprovado.includes(nome)) {
     alert('Você não pode entrar no site!!!')
     window.location.replace("");
 } else {
