@@ -24,9 +24,9 @@ body {
 }
 
 #form img {
-    width: 45%;
+    width: 30%;
     /* Define o tamanho das imagens */
-    margin: 10px 2.5%;
+    margin: 50px;
     /* Espaçamento entre as imagens */
     border-radius: 10px;
     /* Bordas arredondadas */
@@ -45,4 +45,22 @@ body {
 #form img:not(#imagem1):nth-child(even) {
     align-self: flex-end;
     /* Imagens pares ficam à direita */
+}
+
+figure {
+    transition: transform 0.3s ease-in-out;
+}
+
+figure:hover {
+    transform: scale(1.2);
+
+}
+
+
+figcaption {
+    margin-top: 1px;
+    /* Reduz o espaço entre a imagem e a legenda */
+    font-size: 20px;
+    /* Ajusta o tamanho da fonte */
+    text-align: center;
 }
